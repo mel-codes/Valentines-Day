@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(225, 147, 160);
+    font-family: "Geologica", sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+/* page 1 background */
+
+.page1-pic1 {
+    width: 350px;
+    position: absolute;
+    float: none;
+    bottom: 5rem;
+    left: 4rem;
+}
+
+.heart {
+    position: absolute;
+    color: rgb(237, 85, 110);
+    font-size: 7rem;
+    float: none;
+    left: 60rem;
+    rotate: 10deg;
+}
+
+.heart1 {
+    position: absolute;
+    color: rgb(239, 84, 84);
+    font-size: 7rem;
+    float: none;
+    left: 10rem;
+    bottom: 37rem;
+    rotate: 350deg;
+}
+
+.heart2 {
+    position: absolute;
+    color: rgb(234, 67, 95);
+    font-size: 7rem;
+    float: none;
+    left: 65rem;
+    bottom: 39rem;
+    rotate: 10deg;
+}
+
+.heart3 {
+    position: absolute;
+    color: rgb(193, 52, 75);
+    font-size: 7rem;
+    float: none;
+    left: 73rem;
+    bottom: 14rem;
+    rotate: 10deg;
+}
+
+.heart4 {
+    position: absolute;
+    color: rgb(214, 61, 61);
+    font-size: 7rem;
+    float: none;
+    left: 35rem;
+    bottom: 6rem;
+    rotate: 355deg;
+}
+
+.heart5 {
+    position: absolute;
+    color: rgb(235, 43, 43);
+    font-size: 7rem;
+    float: none;
+    left: 50rem;
+    bottom: 4rem;
+    rotate: 355deg;
+}
+
+.heart6 {
+    position: absolute;
+    color: rgb(239, 84, 84);
+    font-size: 7rem;
+    float: none;
+    left: 40rem;
+    bottom: 40rem;
+    rotate: 350deg;
+}
+
+/* page 1 header */
+
+.header-div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 16rem;
+    color: white;
+}
+
+header {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+/* yes or no */
+
+.yes-no {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+
+.yes-no-list button {
+    text-decoration: none;
+    background-color: rgb(236, 191, 199);
+    color: white;
+    padding: 10px 20px 10px 20px;
+    margin-right: 4rem;
+    cursor: pointer;
+    border: 3px solid white;
+    border-radius: 3px;
+}
+
+.yes-no-list button:hover {
+    transition: 0.5s;
+    background-color: rgb(231, 170, 182);
+    cursor: pointer;
+}
+
+.yes-no-list button:not(:hover) {
+    transition: 0.5s;
+}
+
+.yes-no-list button:active {
+    transition: 0.1s;
+    background-color: rgb(233, 155, 171);
+    cursor: pointer;
+}
+
+.yes {
+    font-size: 4rem;
+}

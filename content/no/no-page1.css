@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(225, 147, 160);
+    font-family: "Geologica", sans-serif;
+    font-style: normal;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    letter-spacing: 2px;
+}
+
+/* main */
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+.main-text {
+    color: white;
+    font-size: 2rem;
+}
+
+.main img {
+    width: 550px;
+}
+
+/* back button */
+
+.back-button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+}
+
+.back-button a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
